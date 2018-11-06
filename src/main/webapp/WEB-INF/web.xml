@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Servlet 3.0 Web Application</display-name>
+  <servlet>
+    <servlet-name>Inscription</servlet-name>
+    <servlet-class>com.eatogether.Controller.Inscription</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Connexion</servlet-name>
+    <servlet-class>com.eatogether.Controller.Connexion</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Recherche</servlet-name>
+    <servlet-class>com.eatogether.Controller.Recherche</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Profil</servlet-name>
+    <servlet-class>com.eatogether.Controller.Profil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Inscription</servlet-name>
+    <url-pattern>/Inscription</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Connexion</servlet-name>
+    <url-pattern>/Connexion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Recherche</servlet-name>
+    <url-pattern>/Recherche</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Profil</servlet-name>
+    <url-pattern>/Profil</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserNameSevlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.UserNameSevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserNameSevlet</servlet-name>
+    <url-pattern>/UserNameSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Chatchargement</servlet-name>
+    <servlet-class>com.eatogether.Controller.Chatchargement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Chatchargement</servlet-name>
+    <url-pattern>/Chatchargement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ChatAffiche</servlet-name>
+    <servlet-class>com.eatogether.Controller.ChatAffiche</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChatAffiche</servlet-name>
+    <url-pattern>/ChatAffiche</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ChatInsert</servlet-name>
+    <servlet-class>com.eatogether.Controller.ChatInsert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChatInsert</servlet-name>
+    <url-pattern>/ChatInsert</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>DetailsServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.DetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetailsServlet</servlet-name>
+    <url-pattern>/DetailsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RendezVousCreateServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.RendezVousCreateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RendezVousCreateServlet</servlet-name>
+    <url-pattern>/RendezVousCreateServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>AllRendezVousServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.AllRendezVousServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllRendezVousServlet</servlet-name>
+    <url-pattern>/AllRendezVousServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>RendezVousAddTargetServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.RendezVousAddTargetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RendezVousAddTargetServlet</servlet-name>
+    <url-pattern>/RendezVousAddTargetServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>RendezVousByUserServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.RendezVousByUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RendezVousByUserServlet</servlet-name>
+    <url-pattern>/RendezVousByUserServlet</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+    <servlet-name>UpdateRendezVousServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.UpdateRendezVousServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateRendezVousServlet</servlet-name>
+    <url-pattern>/UpdateRendezVousServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteRendezVousServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.DeleteRendezVousServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteRendezVousServlet</servlet-name>
+    <url-pattern>/DeleteRendezVousServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+	<servlet>
+    <servlet-name>AnnulerServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.AnnulerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnnulerServlet</servlet-name>
+    <url-pattern>/AnnulerServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   
+  <servlet>
+    <servlet-name>DeconnexionServlet</servlet-name>
+    <servlet-class>com.eatogether.Controller.DeconnexionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeconnexionServlet</servlet-name>
+    <url-pattern>/DeconnexionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>Compte</servlet-name>
+    <servlet-class>com.eatogether.Controller.Compte</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Compte</servlet-name>
+    <url-pattern>/Compte</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="org.hibernate.tutorial.jpa/Hibernate" uuid="12bfb9eb-60bf-46f9-9cf3-94a0d89657a6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="MYSQL" exact-version="0.0" />
+    </data-source>
+  </component>
+</project>
