@@ -43,7 +43,7 @@ public class Chatchargement extends HttpServlet {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Map mp = new HashMap<>();
+		Map mp = new HashMap<String,Chat>();
 		mp.put("Ami", listeami);
 		mp.put("Chat", listechat);
 		ObjectMapper mapper = new ObjectMapper();

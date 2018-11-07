@@ -31,7 +31,7 @@ public class RendezVousImplementationTest {
     @Test
     public void TestGetRdvs()
     {
-        ArrayList<RendezVous> listerdvs = new ArrayList<>();
+        ArrayList<RendezVous> listerdvs = new ArrayList<RendezVous>();
 
         Date d= new Date();
         d.setTime(10000);
