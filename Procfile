@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/*.war
+web: java $JAVA_OPTS -cp --expand-war target/classes:target/dependency/*.war
