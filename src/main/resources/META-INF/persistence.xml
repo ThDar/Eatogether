@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+<!--<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
@@ -17,7 +17,7 @@
             <property name="hibernate.connection.useUnicode" value="true"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
-            <!-- use encache provider-->
+            <!- use encache provider-->
             <!--<property name="hibernate.cache.region.factory_class"-->
             <!--value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>-->
             <!--<property name="hibernate.javax.cache.provider" value="org.ehcache.jsr107.EhcacheCachingProvider"/>-->
@@ -25,6 +25,29 @@
             <!--<property name="hibernate.cache.use_second_level_cache" value="true"/>-->
             <!--&lt;!&ndash;use 3rd level cache&ndash;&gt;-->
             <!--<property name="hibernate.cache.use_query_cache" value="true"/>-->
-        </properties>
+        <!--</properties>
     </persistence-unit>
+</persistence>-->
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+
+    <persistence-unit name="persistenceUnitName" transaction-type="RESOURCE_LOCAL">
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-54-217-216-149.eu-west-1.compute.amazonaws.com:5432/dbmc625is0bgja" /> <!-- BD Mane -->
+            <property name="javax.persistence.jdbc.user" value="murccgzmysuuhr" /> <!-- DB User -->
+            <property name="javax.persistence.jdbc.password" value="13908b7882288ef1be9fc8a9c54db1a8c559cff998088f1794cb618ec02c1d42" /> <!-- DB Password -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> <!-- DB Dialect -->
+            <property name="hibernate.hbm2ddl.auto" value="update" /> <!-- create / create-drop / update -->
+            <property name="hibernate.show_sql" value="true" /> <!-- Show SQL in console -->
+            <property name="hibernate.format_sql" value="true" /> <!-- Show SQL formatted -->
+        </properties>
+
+    </persistence-unit>
+
 </persistence>
