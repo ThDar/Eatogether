@@ -35,13 +35,12 @@
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
              version="2.1">
 
-    <persistence-unit name="org.hibernate.tutorial.jpa" transaction-type="RESOURCE_LOCAL">
-
+    <persistence-unit name="org.hibernate.tutorial.jpa">
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-54-217-216-149.eu-west-1.compute.amazonaws.com:5432/dbmc625is0bgja" /> <!-- BD Mane -->
-            <property name="javax.persistence.jdbc.user" value="murccgzmysuuhr" /> <!-- DB User -->
-            <property name="javax.persistence.jdbc.password" value="13908b7882288ef1be9fc8a9c54db1a8c559cff998088f1794cb618ec02c1d42" /> <!-- DB Password -->
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver" /> <!-- DB Driver -->
+            <property name="hibernate.connection.url" value="jdbc:postgresql://ec2-54-217-216-149.eu-west-1.compute.amazonaws.com:5432/dbmc625is0bgja?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory" /> <!-- BD Mane -->
+            <property name="hibernate.connection.username" value="murccgzmysuuhr" /> <!-- DB User -->
+            <property name="hibernate.connection.password" value="13908b7882288ef1be9fc8a9c54db1a8c559cff998088f1794cb618ec02c1d42" /> <!-- DB Password -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> <!-- DB Dialect -->
             <property name="hibernate.hbm2ddl.auto" value="update" /> <!-- create / create-drop / update -->
             <property name="hibernate.show_sql" value="true" /> <!-- Show SQL in console -->

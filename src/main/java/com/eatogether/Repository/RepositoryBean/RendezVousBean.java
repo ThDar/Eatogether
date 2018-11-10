@@ -7,7 +7,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "RendezVous")
+@Table(name = "rendezvous")
 public class RendezVousBean {
 
     @Id

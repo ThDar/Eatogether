@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "Users")
+@Table(name = "users")
 public class UtilisateurBean {
     @Id
     @Column(name = "id")
