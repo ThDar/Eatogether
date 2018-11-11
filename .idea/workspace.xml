@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f318a383-a9df-43e3-9e11-2732beb89efe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/js/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/chat.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -141,6 +140,7 @@
         <counts>
           <entry key="Procfile" value="12" />
           <entry key="java" value="20" />
+          <entry key="js" value="1" />
           <entry key="jsp" value="25" />
           <entry key="xml" value="106" />
         </counts>
@@ -149,6 +149,7 @@
         <counts>
           <entry key="JAVA" value="20" />
           <entry key="JSP" value="25" />
+          <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="106" />
         </counts>
@@ -228,8 +229,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="113" column="29" lean-forward="true" selection-start-line="112" selection-start-column="37" selection-end-line="113" selection-end-column="29" />
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -688,7 +689,7 @@
       <workItem from="1541798710718" duration="5866000" />
       <workItem from="1541841044502" duration="2727000" />
       <workItem from="1541844523954" duration="8193000" />
-      <workItem from="1541893298695" duration="899000" />
+      <workItem from="1541893298695" duration="1471000" />
     </task>
     <task id="LOCAL-00001" summary="Version-Darine Hibernate">
       <created>1539011402569</created>
@@ -754,7 +755,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95620000" />
+    <option name="totallyTimeSpent" value="96192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,7 +770,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8850856" visible="true" weight="0.2246596" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7692308" visible="true" weight="0.024205748" />
       <window_info id="Structure" order="1" sideWeight="0.17603911" side_tool="true" weight="0.24962178" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -777,7 +778,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info id="Web" order="8" sideWeight="0.114914425" side_tool="true" visible="true" weight="0.2246596" />
+      <window_info id="Web" order="8" sideWeight="0.23076923" side_tool="true" visible="true" weight="0.024205748" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.98032784" />
@@ -786,7 +787,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.7672131" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.6803279" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.58360654" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3295082" />
@@ -797,7 +798,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18532526" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1860817" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1108,8 +1109,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="113" column="29" lean-forward="true" selection-start-line="112" selection-start-column="37" selection-end-line="113" selection-end-column="29" />
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>

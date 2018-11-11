@@ -8,7 +8,7 @@ $(document).ready(function(){
 	       type : 'GET', // Le type de la requête HTTP, ici devenu POST
 	       dataType : 'json',
 	    	     success : function(data){
-	    	    	 $("#websocket").append("<script>websocket = new WebSocket(\"ws://eatogetherapp.herokuapp.com/chatroomServerEndpoint\");<\/script>");
+	    	    	 $("#websocket").append("<script>websocket = new WebSocket(\"wss://eatogetherapp.herokuapp.com/chatroomServerEndpoint\");<\/script>");
 	    	    	 websocketonmessage1();
 	    	    	 $.each(data.Chat, function(i, obj) {
 	    	    		$(".inbox_chat").append("<div class=\"chat_list\" id=\"chat"+obj.source+"\"><div class=\"chat_people\"><div class=\"chat_img\"> <img src=\""+photo+"\" alt=\"sunil\"> </div><div class=\"chat_ib\" id=\"chat_chat\"><h5>"+obj.source+"<span class=\"chat_date\">Dec 25</span></h5><a id=\"lien"+i+"\" class=\"lien\"><p id=\""+obj.source+"\">"+obj.message+"</p><input id=\"hiden"+i+"\" name=\"hiden\" type=\"hidden\" value="+obj.source+"></input></a></div></div></div>");
@@ -49,7 +49,7 @@ $(document).ready(function(){
 		      dataType : 'json',
 		   	     success : function(data){
 		   	    	$("#websocket").empty();
-		   	    	$("#websocket").append("<script>websocket = new WebSocket(\"ws://eatogetherapp.herokuapp.com/chatroomServerEndpoint\");<\/script>");
+		   	    	$("#websocket").append("<script>websocket = new WebSocket(\"wss://eatogetherapp.herokuapp.com/chatroomServerEndpoint\");<\/script>");
 		   	    	websocketonmessage();
 		   	    	test = true ;
 		   	    	try{
@@ -109,7 +109,7 @@ $(document).ready(function(){
 	      dataType : 'json',
 	   	     success : function(data){
 	   	    	$("#websocket").empty();
-	   	    	$("#websocket").append("<script>websocket = new WebSocket(\"ws://eatogetherapp.herokuapp.com/chatroomServerEndpoint\");<\/script>");
+	   	    	$("#websocket").append("<script>websocket = new WebSocket(\"wss://eatogetherapp.herokuapp.com/chatroomServerEndpoint\");<\/script>");
 	   	    	websocketonmessage();
 	   	    	test = true ;
 	   	    	if(data[0].number>=3){
